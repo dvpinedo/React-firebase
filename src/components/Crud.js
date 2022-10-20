@@ -310,7 +310,7 @@ function Crud() {
   return (
     
       <div className="mx-auto">
-        <h1 className="text-lg font-bold text-center my-8">Firebase Users Registration With Images</h1>
+        <h1 className="text-lg font-bold text-center my-8">User Registration</h1>
         <Form
           recall={recall}
           setRecall={setRecall}
