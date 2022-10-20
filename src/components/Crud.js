@@ -310,7 +310,7 @@ function Crud() {
   return (
     
       <div className="mx-auto">
-        <h1 className="text-lg font-bold text-center my-8">Registro de usuarios</h1>
+        <h1 className="text-lg font-bold text-center my-8">User Registration</h1>
         <Form
           recall={recall}
           setRecall={setRecall}
@@ -318,7 +318,7 @@ function Crud() {
           setUpdateForm={setUpdateForm}
           user={updateUser}
         />
-        <h2 className="text-lg font-bold text-center my-8">Usuarios registrados</h2>
+        <h2 className="text-lg font-bold text-center my-8">Registered Users</h2>
         <PeopleList list={list} deleteUser={deleteUser} update={update} />
       </div>
     
